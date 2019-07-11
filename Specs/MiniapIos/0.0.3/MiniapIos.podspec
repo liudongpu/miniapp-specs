@@ -13,7 +13,7 @@ end
 
 
 Pod::Spec.new do |spec|
-  spec.name = 'Miniapp'
+  spec.name = 'MiniapIos'
   spec.version = version
   spec.license = { :type => 'Google', :file => 'COPYING' }
   spec.homepage = 'https://liudongpu.github.io/miniapp-book/'
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
   spec.source = source
   
-  spec.module_name = 'Miniapp'
+  spec.module_name = 'MiniapIos'
   spec.header_dir = 'miniapp-ios/Miniapp/'
 
   spec.dependency "React", "0.59.10"
