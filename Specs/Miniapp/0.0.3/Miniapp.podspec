@@ -1,5 +1,5 @@
 
-version='0.0.2'
+version='0.0.3'
 
 
 source = { :git => 'https://github.com/liudongpu/miniapp-ios.git' }
@@ -26,7 +26,9 @@ Pod::Spec.new do |spec|
   spec.header_dir = 'miniapp-ios/Miniapp/'
 
   spec.dependency "React", "0.59.10"
-
+  spec.dependency "SSZipArchive"
+  spec.dependency "AFNetworking"
+  spec.dependency "JSONModel"
 
 
   spec.source_files= "miniapp-ios/Miniapp/**/*.{c,h,m,mm,S,cpp}"
