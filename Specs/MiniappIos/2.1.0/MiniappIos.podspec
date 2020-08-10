@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 
   spec.dependency "React", "0.59.10"
   spec.dependency "SSZipArchive"
-  spec.dependency "AFNetworking","4.0.0"
+  spec.dependency "AFNetworking"
   spec.dependency "JSONModel"
 
 
